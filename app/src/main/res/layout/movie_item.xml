@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:padding="@dimen/activity_vertical_margin"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/MovieName"
+            android:layout_width="257dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="10dp"
+            android:text="textview"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/ratingMovie"
+            android:layout_width="77dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:textColor="@color/black"
+            android:text="TextView" />
+        <TextView
+            android:id="@+id/urlMovie"
+            android:layout_width="77dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="0dp"
+            android:text=" " />
+
+    </LinearLayout>
+
+
+
+
+</com.google.android.material.card.MaterialCardView>
